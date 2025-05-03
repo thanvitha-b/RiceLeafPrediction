@@ -71,7 +71,11 @@ This tool makes disease identification faster, more reliable, and accessible to 
 ❌ **Issue:** Execution stops in Google Colab?  
 ✔️ **Fix:** Restart runtime and **rerun all cells** sequentially.
 
-
+## 👥 Contributors & Contact
+Developed by:
+Thanvitha Boyapalli (23251A0509)
+Praneetha Siripurapu (23251A0528)
+Syeda Hiba (23251A0529)
 
 
 
