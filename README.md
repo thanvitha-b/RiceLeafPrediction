@@ -32,7 +32,7 @@ This tool makes disease identification faster, more reliable, and accessible to 
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
-```
+
 
 ### 📂 Project Files
 
@@ -47,11 +47,11 @@ This tool makes disease identification faster, more reliable, and accessible to 
 
 ### 📑 Usage Guide 
 
-✅ Upload a **clear rice leaf image** in the Gradio interface.  
-✅ The AI model predicts the **disease type** based on deep learning classification.  
-✅ It suggests **prevention tips** tailored for each disease.  
-✅ Users can test multiple images to **validate accuracy**.  
-✅ Follow recommended actions to ensure better **crop management**.
+> Upload a **clear rice leaf image** in the Gradio interface.  
+> The AI model predicts the **disease type** based on deep learning classification.  
+> It suggests **prevention tips** tailored for each disease.  
+> Users can test multiple images to **validate accuracy**.  
+> Follow recommended actions to ensure better **crop management**.
 
 
 
