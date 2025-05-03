@@ -29,8 +29,9 @@ This tool makes disease identification **faster, more reliable, and accessible**
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
+```
 
-**### 📂 **Project Files****
+### 📂 Project Files
 
 📜 `ricecropdiseaseprediction.ipynb` → Model training & preprocessing  
 📜 `miniproject.ipynb` → Gradio interface for predictions  
@@ -41,8 +42,7 @@ This tool makes disease identification **faster, more reliable, and accessible**
 📜 `resources/` → Research papers, PPTs, and related literature
 
 
-
-### 📑 **Usage Guide **
+### 📑 Usage Guide 
 
 ✅ Upload a **clear rice leaf image** in the Gradio interface.  
 ✅ The AI model predicts the **disease type** based on deep learning classification.  
@@ -53,12 +53,12 @@ This tool makes disease identification **faster, more reliable, and accessible**
 
 
 
-### 🔹 **Best Practices for Better Accuracy**
+### 🔹 Best Practices for Better Accuracy
 - Use **high-quality images** with good lighting.  
 - Ensure the leaf is **clearly visible** without background interference.  
 - Try **multiple angles** for better detection.  
 
-### 🔹 **Troubleshooting Errors**
+### 🔹 Troubleshooting Errors
 ❌ **Issue:** No prediction appears?  
 ✔️ **Fix:** Ensure model files (`mobilenet_model.h5`, `cnn_model.h5`, `resnet_model.h5`) are available in Google Drive.  
 
