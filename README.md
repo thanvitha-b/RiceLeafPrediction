@@ -1,31 +1,34 @@
 🍃 **Rice Leaf Disease Prediction** 🌾
 
 
+# Rice Leaf Disease Prediction  
+
 ## 📌 Project Overview  
 Rice Leaf Disease Prediction is an AI-powered tool designed to detect rice crop diseases early using deep learning models.  
 This system helps farmers by analyzing images of rice leaves and classifying them into six categories:  
-✅ Bacterial Leaf Blight  
-✅ Brown Spot 
-✅ Healthy Leaf
-✅ Leaf Blast
-✅ Leaf Scald 
-✅ Narrow Brown Spot
+- Bacterial Leaf Blight  
+- Brown Spot  
+- Healthy Leaf  
+- Leaf Blast  
+- Leaf Scald  
+- Narrow Brown Spot  
 
-### 🔹 **Key Features:**
-- Uses **CNN, MobileNetV2, and ResNet** models for high accuracy.  
-- Provides **real-time disease predictions** via a Gradio interface.  
-- Suggests **preventive actions** for better crop management.  
-- Runs on **Google Colab**, making it easy to access and use.  
+### Key Features  
+- Uses CNN, MobileNetV2, and ResNet models for high accuracy  
+- Provides real-time disease predictions via a Gradio interface  
+- Suggests preventive actions for better crop management  
+- Runs on Google Colab for easy accessibility  
 
-### 🌱 **Impact on Agriculture:**  
-By leveraging AI-powered disease detection, farmers can make informed decisions, **reduce crop losses**, and **promote sustainable agriculture**.  
-This tool makes disease identification **faster, more reliable, and accessible** for farmers with minimal technical knowledge.  
+### Impact on Agriculture  
+By leveraging AI-powered disease detection, farmers can make informed decisions, reduce crop losses, and promote sustainable agriculture.  
+This tool makes disease identification faster, more reliable, and accessible to farmers with minimal technical knowledge.  
+
+---
 
 ## 🛠️ How to Run  
-
-1️⃣ Open your **Google Colab notebook** (`ricecropdiseaseprediction.ipynb` for training & `miniproject.ipynb` for interface).  
-2️⃣ Make sure all required models (`cnn_model.h5`, `mobilenet_model.h5`, `resnet_model.h5`, `rf_model.pkl`) are stored in **Google Drive**.  
-3️⃣ Mount Google Drive in the Colab notebook using:  
+1. Open your Google Colab notebook (`ricecropdiseaseprediction.ipynb` for training & `miniproject.ipynb` for interface).  
+2. Ensure all required models (`cnn_model.h5`, `mobilenet_model.h5`, `resnet_model.h5`) are stored in Google Drive.  
+3. Mount Google Drive in the Colab notebook using:  
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
